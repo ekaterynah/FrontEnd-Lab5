@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Лабораторна робота №5">
+    <title>Лаб 5 Гуменюк Катерина ІМ-23</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Форма перевірки даних</h1>
+        <form id="validationForm">
+            <label>
+                ПІБ:
+                <input type="text" id="fullName" placeholder="ТТТТТТ Т.Т.">
+            </label>
+            <label>
+                ID-card:
+                <input type="text" id="idCard" placeholder="ТТ №ЧЧЧЧЧЧ">
+            </label>
+            <label>
+                Факультет:
+                <input type="text" id="faculty" placeholder="ТТТТ">
+            </label>
+            <label>
+                Дата народження:
+                <input type="text" id="birthDate" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ">
+            </label>
+            <label>
+                Адреса:
+                <input type="text" id="address" placeholder="м. ТТТТ">
+            </label>
+            <button type="button" id="submitBtn">Перевірити</button>
+        </form>
+    </div>
+    
+    <div>
+        <h1>Table</h1>
+        <table id="table"></table>
+          <input type="color" id="colorPicker" value="#ff0000">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
